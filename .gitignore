@@ -1,0 +1,33 @@
+# -------------------------------
+# Terraform
+# -------------------------------
+
+# Dossier interne Terraform (plugins, cache, etc.)
+.terraform/
+.terraform.lock.hcl
+
+# Fichiers d’état (⚠️ ne jamais partager)
+terraform.tfstate
+terraform.tfstate.backup
+crash.log
+
+# Variables sensibles
+terraform.tfvars
+*.tfvars
+*.tfvars.json
+
+# Fichiers temporaires et overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs, backups, outputs
+*.log
+*.bak
+
+# OS / éditeur (macOS, VSCode)
+.DS_Store
+.vscode/
+.idea/
+
