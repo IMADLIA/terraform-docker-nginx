@@ -6,10 +6,7 @@
 .terraform/
 .terraform.lock.hcl
 
-# Fichiers d’état (⚠️ ne jamais partager)
-terraform.tfstate
-terraform.tfstate.backup
-crash.log
+
 
 # Variables sensibles
 terraform.tfvars
